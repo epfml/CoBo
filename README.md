@@ -34,7 +34,7 @@ python ./personalized-collaborative-llms/src/main.py --trust cobo --trust_freq 1
  --lora_causal_self_attention --lora_freeze_all_non_lora --no_compile
 ```
 
-And this is the base command for runnaing an experiment for collaborative training of modles on Cifar100:
+And this is the base command for running an experiment for collaborative training of modles on Cifar100:
 
 ```
 python ./personalized-vision-models/run.py --bs_train 128 --bs_test 500 --workers 2 2 2 2 \
